@@ -1,9 +1,13 @@
 {
   "environments": {
     "test": {
+      "buildpacks": [
+        { "url": "heroku/google-chrome" },
+        { "url": "heroku/python" }
+      ],
       "scripts": {
-        //"install": "pip install robotframework",
-        "test": "python main.py"
+        "install": "pip install robotframework",
+        "test": "python foo.py"
         //"test": "robot login_tests/valid_login.robot"
       }
     }
