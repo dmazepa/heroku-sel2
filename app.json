@@ -7,7 +7,7 @@
       ],
       "scripts": {
         "install": "pip install robotframework",
-        "test": "python foo.py"
+        "test": "python main.py"
         //"test": "robot login_tests/valid_login.robot"
       }
     }
