@@ -6,7 +6,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 # chromepath = os.environ.get("CHROMEDRIVER_PATH")
-# print(chromepath)
+path = os.environ.get("PATH")
+print(path)
 # ser = Service(chromepath)
 #
 chrome_options = webdriver.ChromeOptions()
