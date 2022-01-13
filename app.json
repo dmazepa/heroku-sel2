@@ -3,10 +3,12 @@
     "test": {
       "buildpacks": [
         { "url": "heroku/google-chrome" },
+        { "url": "heroku/heroku-buildpack-google-chrome" },
+        { "url": "/heroku/heroku-buildpack-chromedriver" },
         { "url": "heroku/python" }
       ],
       "scripts": {
-        "install": "pip install robotframework",
+        //"install": "pip install robotframework",
         "test": "python main.py"
         //"test": "robot login_tests/valid_login.robot"
       }
